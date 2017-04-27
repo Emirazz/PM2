@@ -10,6 +10,7 @@ abstract class AbstractMedium
 {
     /**
      * Ein Kommentar zum Medium
+     * 
      */
     public String _kommentar;
 
