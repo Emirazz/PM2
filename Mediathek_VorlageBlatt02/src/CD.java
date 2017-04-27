@@ -106,7 +106,7 @@ class CD extends AbstractMedium implements Medium
     public String getFormatiertenString()
     {
         return getMedienBezeichnung() + super.getFormatiertenString() + "\n" + "    "
-                + "Interpret: " + _interpret + "\n" + "    " + "Spiell√§nge: "
+                + "Interpret: " + _interpret + "\n" + "    " + "Spiell‰nge: "
                 + _spiellaenge + "\n";
     }
 }

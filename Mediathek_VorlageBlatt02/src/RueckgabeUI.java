@@ -135,7 +135,7 @@ class RueckgabeUI
         verleihkartenAnzeigerScrollPane
                 .setPreferredSize(new java.awt.Dimension(-1, -1));
         verleihkartenAnzeigerScrollPane.setBorder(BorderFactory
-                .createTitledBorder(null, "AusgewÃ¤hlte Verleihkarten",
+                .createTitledBorder(null, "Ausgewählte Verleihkarten",
                         TitledBorder.LEADING, TitledBorder.DEFAULT_POSITION,
                         UIConstants.HEADER_FONT));
         verleihkartenAnzeigerScrollPane.setSize(-1, -1);
@@ -168,7 +168,7 @@ class RueckgabeUI
 
         _ruecknahmeButton = new JButton();
         buttonPanel.add(_ruecknahmeButton);
-        _ruecknahmeButton.setText("zurÃ¼cknehmen");
+        _ruecknahmeButton.setText("zurücknehmen");
         _ruecknahmeButton.setPreferredSize(new java.awt.Dimension(140, 100));
         _ruecknahmeButton.setSize(-1, -1);
         _ruecknahmeButton.setEnabled(false);

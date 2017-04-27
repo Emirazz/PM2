@@ -45,7 +45,7 @@ class MedienDetailAnzeigerUI
         medienAnzeigerScrollPane.setPreferredSize(new Dimension(-1, 160));
         medienAnzeigerScrollPane.setSize(-1, -1);
         medienAnzeigerScrollPane.setBorder(BorderFactory.createTitledBorder(
-                null, "Ausgew√§hlte Medien", TitledBorder.LEADING,
+                null, "Ausgew‰hlte Medien", TitledBorder.LEADING,
                 TitledBorder.DEFAULT_POSITION, UIConstants.HEADER_FONT));
         medienAnzeigerScrollPane.setBackground(UIConstants.BACKGROUND_COLOR);
         medienAnzeigerScrollPane.getVerticalScrollBar().setBackground(

@@ -45,7 +45,7 @@ class KundenDetailAnzeigerUI
         medienAnzeigerScrollPane.setPreferredSize(new Dimension(-1, 160));
         medienAnzeigerScrollPane.setSize(-1, -1);
         medienAnzeigerScrollPane.setBorder(BorderFactory.createTitledBorder(
-                null, "Ausgew√§hlter Kunde", TitledBorder.LEADING,
+                null, "Ausgew‰hlter Kunde", TitledBorder.LEADING,
                 TitledBorder.DEFAULT_POSITION, UIConstants.HEADER_FONT));
         medienAnzeigerScrollPane.setBackground(UIConstants.BACKGROUND_COLOR);
         medienAnzeigerScrollPane.getVerticalScrollBar().setBackground(

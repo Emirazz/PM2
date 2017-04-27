@@ -21,7 +21,7 @@ class MediathekUI
     // verwendet.
     public static final String AUSLEIHE = "Ausleihe-Ansicht";
     public static final String NAME = "PM2-Mediathek 2017 Blatt 02";
-    public static final String RUECKGABE = "RÃ¼ckgabe-Ansicht";
+    public static final String RUECKGABE = "Rückgabe-Ansicht";
 
     private JButton _ausleiheButton;
     private JPanel _ausleihePanel;
