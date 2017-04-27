@@ -18,7 +18,7 @@ public class PCVideospiel extends Videospiel
      */
     public PCVideospiel(String titel, String kommentar, String system)
     {
-        super(titel,kommentar,system);
+        super(titel,kommentar,system,"PCVideospiel");
     }
     
     /**
@@ -27,7 +27,8 @@ public class PCVideospiel extends Videospiel
      * @retrun Der Geldbetrag
      * @require tage > 0
      */
-    public  int getPreisNachTagen(int tage)
+    @Override
+    protected int getPreisNachTagen(int tage)
     {
 	if(tage <=7)
 	{
@@ -38,12 +39,6 @@ public class PCVideospiel extends Videospiel
 	    tage = (tage-7);
 	    return 500*(tage/5 + tage % 5);
 	}
-    }
-    
-    @Override
-    public String getMedienBezeichnung()
-    {
-        return "PCVideospiel";
     }
 
 }

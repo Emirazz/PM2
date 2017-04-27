@@ -13,10 +13,7 @@ public class DVDTest extends AbstractMediumTest
     public DVDTest()
     {
         super();
-        if(_medium1 instanceof DVD)
-        {
-        	_dvd = (DVD) _medium1;
-        }
+        	_dvd = getMedium();
         BEZEICHNUNG = "DVD";
         
     }
@@ -41,16 +38,16 @@ public class DVDTest extends AbstractMediumTest
     }
 
     @Override
-    protected AbstractMedium getMedium()
+    protected DVD getMedium()
     {
         return new DVD(TITEL, KOMMENTAR, REGISSEUR, LAENGE);
     }
     @Test
     public void testBerechneMietGebuehr()
     {
-        assertEquals(Geldbetrag.get(300),_medium1.berchneMietgebuehr(1));
-        assertEquals(Geldbetrag.get(600),_medium1.berchneMietgebuehr(2));
-        assertEquals(Geldbetrag.get(3000),_medium1.berchneMietgebuehr(10));
+        assertEquals(Geldbetrag.get(300),_dvd.berechneMietgebuehr(1));
+        assertEquals(Geldbetrag.get(600),_dvd.berechneMietgebuehr(2));
+        assertEquals(Geldbetrag.get(3000),_dvd.berechneMietgebuehr(10));
     }
 
 }

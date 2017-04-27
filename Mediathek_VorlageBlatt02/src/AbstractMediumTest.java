@@ -10,8 +10,8 @@ abstract public class AbstractMediumTest
     protected static final String KOMMENTAR = "Kommentar";
     protected static final String TITEL = "Titel";
     protected static String BEZEICHNUNG;
-    protected AbstractMedium _medium1;
-    protected AbstractMedium _medium2;
+    private AbstractMedium _medium1;
+    private AbstractMedium _medium2;
 
     public AbstractMediumTest()
     {

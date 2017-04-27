@@ -107,7 +107,7 @@ class Verleihkarte
      */
     public Geldbetrag getMietgebuehr()
     {
-        return _medium.berchneMietgebuehr(getAusleihdauer());
+        return _medium.berechneMietgebuehr(getAusleihdauer());
     }
 
     /**

@@ -151,7 +151,7 @@ class RueckgabeWerkzeug
         }
         catch(ProtokollierException e)
         {
-        	JOptionPane.showConfirmDialog(null, "IOException-Fehler", "Fehlermeldung", JOptionPane.ERROR_MESSAGE);
+        	JOptionPane.showMessageDialog(null, "Protokollieren nicht möglich!", "Fehlermeldung", JOptionPane.ERROR_MESSAGE);
         }
     }
 

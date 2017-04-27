@@ -19,7 +19,7 @@ public class KonsolenVideospiel extends Videospiel
      */
     public KonsolenVideospiel(String titel, String kommentar, String system)
     {
-        super(titel,kommentar,system);
+        super(titel,kommentar,system,"KonsolenVideospiel");
     }
     
     /**
@@ -28,16 +28,11 @@ public class KonsolenVideospiel extends Videospiel
      * @retrun Der Geldbetrag
      * @require tage > 0
      */
-    public int getPreisNachTagen(int tage)
+    @Override
+    protected int getPreisNachTagen(int tage)
     {
 	return 700*(int)(tage/3);
     }
     
-    @Override
-    public String getMedienBezeichnung()
-    {
-        return "KonsolenVideospiel";
-    }
-
 }
 

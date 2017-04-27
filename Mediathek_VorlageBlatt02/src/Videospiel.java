@@ -27,9 +27,9 @@ abstract class Videospiel extends AbstractMedium implements Medium
      * @ensure getKommentar() == kommentar
      * @ensure getSystem() == system
      */
-    public Videospiel(String titel, String kommentar, String system)
+    public Videospiel(String titel, String kommentar, String system, String bezeichner)
     {
-        super(titel,kommentar);
+        super(titel,kommentar, bezeichner);
         assert system != null : "Vorbedingung verletzt: system != null";
         _system = system;
     }
@@ -46,7 +46,6 @@ abstract class Videospiel extends AbstractMedium implements Medium
         return _system;
     }
     
-    abstract public String getMedienBezeichnung();
 
     @Override
     public String toString()
@@ -62,9 +61,9 @@ abstract class Videospiel extends AbstractMedium implements Medium
     }
     
     @Override
-    public Geldbetrag berchneMietgebuehr(int mietTage)
+    public Geldbetrag berechneMietgebuehr(int mietTage)
     {
-	return Geldbetrag.get(200+ getPreisNachTagen(mietTage));
+    	return Geldbetrag.get(200+ getPreisNachTagen(mietTage));
     }
     
     /**
@@ -73,5 +72,5 @@ abstract class Videospiel extends AbstractMedium implements Medium
      * @retrun Der Geldbetrag
      * @require tage > 0
      */
-    public abstract int getPreisNachTagen(int tage);
+    protected abstract int getPreisNachTagen(int tage);
 }

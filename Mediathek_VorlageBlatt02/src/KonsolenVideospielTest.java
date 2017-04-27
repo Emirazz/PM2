@@ -12,15 +12,12 @@ public class KonsolenVideospielTest extends AbstractVideospielTest
     public KonsolenVideospielTest()
     {
     	super();
-		if(_medium1 instanceof KonsolenVideospiel)
-		{
-			_videoSpiel = (KonsolenVideospiel) _medium1;
-		}
+			_videoSpiel = getMedium();
 		BEZEICHNUNG = "KonsolenVideospiel";
     }
     
     @Override
-    protected AbstractMedium getMedium()
+    protected KonsolenVideospiel getMedium()
     {
         return new KonsolenVideospiel(TITEL, KOMMENTAR, SYSTEM);
     }
@@ -30,17 +27,17 @@ public class KonsolenVideospielTest extends AbstractVideospielTest
     @Test
     public void testBerechneMietGebuehr()
     {
-        assertEquals(Geldbetrag.get(200),_videoSpiel.berchneMietgebuehr(1));
-        assertEquals(Geldbetrag.get(200),_videoSpiel.berchneMietgebuehr(2));
+        assertEquals(Geldbetrag.get(200),_videoSpiel.berechneMietgebuehr(1));
+        assertEquals(Geldbetrag.get(200),_videoSpiel.berechneMietgebuehr(2));
         
-        assertEquals(Geldbetrag.get(900),_videoSpiel.berchneMietgebuehr(3));
-        assertEquals(Geldbetrag.get(900),_videoSpiel.berchneMietgebuehr(5));
+        assertEquals(Geldbetrag.get(900),_videoSpiel.berechneMietgebuehr(3));
+        assertEquals(Geldbetrag.get(900),_videoSpiel.berechneMietgebuehr(5));
         
-        assertEquals(Geldbetrag.get(1600),_videoSpiel.berchneMietgebuehr(6));
-        assertEquals(Geldbetrag.get(1600),_videoSpiel.berchneMietgebuehr(8));
+        assertEquals(Geldbetrag.get(1600),_videoSpiel.berechneMietgebuehr(6));
+        assertEquals(Geldbetrag.get(1600),_videoSpiel.berechneMietgebuehr(8));
         
-        assertEquals(Geldbetrag.get(2300),_videoSpiel.berchneMietgebuehr(9));
-        assertEquals(Geldbetrag.get(2300),_videoSpiel.berchneMietgebuehr(11));
+        assertEquals(Geldbetrag.get(2300),_videoSpiel.berechneMietgebuehr(9));
+        assertEquals(Geldbetrag.get(2300),_videoSpiel.berechneMietgebuehr(11));
     }
 
 }

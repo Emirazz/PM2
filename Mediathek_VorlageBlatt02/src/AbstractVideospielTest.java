@@ -13,14 +13,13 @@ public abstract class AbstractVideospielTest extends AbstractMediumTest
     public AbstractVideospielTest()
     {
     	super();
-    	if(_medium1 instanceof Videospiel)
-        {
-    		_videoSpiel = (Videospiel) _medium1;
-        }
+    	_videoSpiel = getMedium();
     }
+    
+    abstract protected Videospiel getMedium();
 
     @Test
-    public void testKonstrutor()
+    public void testKonstruktor()
     {
     	super.testKonstruktor();
         assertEquals(SYSTEM, _videoSpiel.getSystem());

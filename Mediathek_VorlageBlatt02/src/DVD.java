@@ -38,7 +38,7 @@ class DVD extends AbstractMedium implements Medium
      */
     public DVD(String titel, String kommentar, String regisseur, int laufzeit)
     {
-        super(titel,kommentar);
+        super(titel,kommentar, "DVD");
         assert laufzeit > 0 : "Vorbedingung verletzt: laufzeit > 0";
         assert regisseur != null : "Vorbedingung verletzt: regisseur != null";
         _regisseur = regisseur;
@@ -72,11 +72,6 @@ class DVD extends AbstractMedium implements Medium
         _laufzeit = laufzeit;
     }
 
-    @Override
-    public String getMedienBezeichnung()
-    {
-        return "DVD";
-    }
 
     /**
      * Gibt den Regisseur der DVD zurück
@@ -108,7 +103,7 @@ class DVD extends AbstractMedium implements Medium
     @Override
     public String getFormatiertenString()
     {
-        return getMedienBezeichnung() + super.getFormatiertenString() + _kommentar + "\n" + "    "
+        return getMedienBezeichnung() + super.getFormatiertenString() + "\n" + "    "
                 + "Regisseur: " + _regisseur + "\n" + "    " + "Laufzeit: "
                 + _laufzeit + "\n";
     }

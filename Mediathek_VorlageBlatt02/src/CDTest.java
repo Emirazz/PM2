@@ -11,10 +11,8 @@ public class CDTest extends AbstractMediumTest
     public CDTest()
     {
     	super();
-        if(_medium1 instanceof CD)
-        {
-        	_cd1 = (CD) _medium1;
-        }
+        	_cd1 = getMedium();
+      
         BEZEICHNUNG = "CD";
     }
 
@@ -37,7 +35,7 @@ public class CDTest extends AbstractMediumTest
     }
 
     @Override
-    protected AbstractMedium getMedium()
+    protected CD getMedium()
     {
         return new CD(TITEL, KOMMENTAR, INTERPRET, LAENGE);
     }
@@ -45,9 +43,9 @@ public class CDTest extends AbstractMediumTest
     @Test
     public void testBerechneMietGebuehr()
     {
-        assertEquals(Geldbetrag.get(300),_cd1.berchneMietgebuehr(1));
-        assertEquals(Geldbetrag.get(600),_cd1.berchneMietgebuehr(2));
-        assertEquals(Geldbetrag.get(3000),_cd1.berchneMietgebuehr(10));
+        assertEquals(Geldbetrag.get(300),_cd1.berechneMietgebuehr(1));
+        assertEquals(Geldbetrag.get(600),_cd1.berechneMietgebuehr(2));
+        assertEquals(Geldbetrag.get(3000),_cd1.berechneMietgebuehr(10));
     }
 
 }

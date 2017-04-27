@@ -8,16 +8,17 @@
  */
 abstract class AbstractMedium
 {
+	private String _bezeichner;
     /**
      * Ein Kommentar zum Medium
      * 
      */
-    public String _kommentar;
+    private String _kommentar;
 
     /**
      * Der Titel des Mediums
      */
-    public String _titel;
+    private String _titel;
     
     /**
      * Initialisiert ein neues abstractMedium.
@@ -31,12 +32,13 @@ abstract class AbstractMedium
      * @ensure getTitel() == titel
      * @ensure getKommentar() == kommentar
      */
-    public AbstractMedium(String titel, String kommentar)
+    protected AbstractMedium(String titel, String kommentar, String bezeichner)
     {
         assert titel != null : "Vorbedingung verletzt: titel != null";
         assert kommentar != null : "Vorbedingung verletzt: kommentar != null";
         _titel = titel;
         _kommentar = kommentar;
+        _bezeichner = bezeichner;
     }
     
     /**
@@ -117,11 +119,14 @@ abstract class AbstractMedium
      * 
      * @ensure result != null
      */
-    public Geldbetrag berchneMietgebuehr(int mietTage)
+    public Geldbetrag berechneMietgebuehr(int mietTage)
     {
 	assert mietTage > 0 : "Vorbedingung verletzt: mietTage > 0";
 	return Geldbetrag.get(300*mietTage);
     }
     
-    abstract public String getMedienBezeichnung();
+     public String getMedienBezeichnung()
+     {
+    	 return _bezeichner;
+     }
 }

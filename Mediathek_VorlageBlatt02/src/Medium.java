@@ -78,6 +78,6 @@ interface Medium
      * 
      * @ensure result != null
      */
-    Geldbetrag berchneMietgebuehr(int mietTage);
+    Geldbetrag berechneMietgebuehr(int mietTage);
 
 }
