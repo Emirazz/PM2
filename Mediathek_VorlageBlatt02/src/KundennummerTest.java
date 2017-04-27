@@ -24,6 +24,7 @@ public class KundennummerTest
 
         Kundennummer kundennummer3 = Kundennummer.get(654321);
         assertFalse(kundennummer1.equals(kundennummer3));
+        
         assertFalse(kundennummer1.hashCode() == kundennummer3.hashCode());
     }
 
