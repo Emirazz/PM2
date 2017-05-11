@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.mediathek;
+package de.hawhh.informatik.sml.startup;
 import static org.junit.Assert.fail;
 
 import org.junit.Test;

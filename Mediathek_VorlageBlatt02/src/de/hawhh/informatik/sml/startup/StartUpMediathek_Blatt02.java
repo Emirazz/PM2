@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.mediathek;
+package de.hawhh.informatik.sml.startup;
 
 
 
@@ -6,6 +6,8 @@ import java.io.File;
 
 import javax.swing.SwingUtilities;
 
+import de.hawhh.informatik.sml.mediathek.VerleihService;
+import de.hawhh.informatik.sml.mediathek.VerleihServiceImpl;
 import de.hawhh.informatik.sml.verwalter.DateiLeseException;
 import de.hawhh.informatik.sml.verwalter.DatenEinleser;
 import de.hawhh.informatik.sml.verwalter.KundenstammService;
