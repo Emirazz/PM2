@@ -4,6 +4,7 @@ import static org.junit.Assert.assertNotSame;
 
 import org.junit.Test;
 
+import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.fachwerte.PLZ;
 
 public class KundeTest

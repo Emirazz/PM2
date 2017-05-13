@@ -1,8 +1,8 @@
 package de.hawhh.informatik.sml.verwalter;
 import java.util.List;
 
+import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.materialien.Kunde;
-import de.hawhh.informatik.sml.materialien.Kundennummer;
 import de.hawhh.informatik.sml.mediathek.ObservableService;
 
 /**

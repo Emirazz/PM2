@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.materialien;
+package de.hawhh.informatik.sml.fachwerte;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

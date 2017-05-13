@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.fachwerte.PLZ;
 import de.hawhh.informatik.sml.materialien.Kunde;
-import de.hawhh.informatik.sml.materialien.Kundennummer;
 
 /**
  * Liest Kunden aus einer CVS-Textdatei ein. Die Kundeninformationen müssen mit

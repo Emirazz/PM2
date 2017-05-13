@@ -4,8 +4,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.materialien.Kunde;
-import de.hawhh.informatik.sml.materialien.Kundennummer;
 
 /**
  * Testklasse für den KundenComparator

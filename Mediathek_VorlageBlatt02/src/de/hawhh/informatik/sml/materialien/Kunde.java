@@ -1,5 +1,6 @@
 package de.hawhh.informatik.sml.materialien;
 
+import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.fachwerte.PLZ;
 
 /**

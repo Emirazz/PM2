@@ -9,8 +9,8 @@ import java.util.List;
 import org.junit.Test;
 
 import de.hawhh.informatik.sml.fachwerte.Datum;
+import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.materialien.Kunde;
-import de.hawhh.informatik.sml.materialien.Kundennummer;
 import de.hawhh.informatik.sml.materialien.Verleihkarte;
 import de.hawhh.informatik.sml.mediathek.VerleihService;
 import de.hawhh.informatik.sml.mediathek.VerleihServiceImpl;

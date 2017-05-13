@@ -9,6 +9,7 @@ import org.junit.Test;
 
 import de.hawhh.informatik.sml.fachwerte.Datum;
 import de.hawhh.informatik.sml.fachwerte.Geldbetrag;
+import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.medien.CD;
 import de.hawhh.informatik.sml.medien.Medium;
 

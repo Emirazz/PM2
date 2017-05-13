@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.materialien;
+package de.hawhh.informatik.sml.fachwerte;
 /**
  * Mit Kundennummern können Kunden eindeutig indentifiziert werden. Jede
  * Kundennummer ist 6 Zeichen lang.

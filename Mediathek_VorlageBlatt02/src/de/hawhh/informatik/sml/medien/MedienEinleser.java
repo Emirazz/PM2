@@ -12,8 +12,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import de.hawhh.informatik.sml.fachwerte.Datum;
+import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.materialien.Kunde;
-import de.hawhh.informatik.sml.materialien.Kundennummer;
 import de.hawhh.informatik.sml.materialien.Verleihkarte;
 import de.hawhh.informatik.sml.verwalter.DateiLeseException;
 

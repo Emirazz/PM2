@@ -8,8 +8,8 @@ import java.util.List;
 
 import org.junit.Test;
 
+import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.materialien.Kunde;
-import de.hawhh.informatik.sml.materialien.Kundennummer;
 
 public class KundenTableModelTest
 {
