@@ -7,8 +7,8 @@ import java.util.List;
 
 import org.junit.Test;
 
-import de.hawhh.informatik.sml.medien.CD;
-import de.hawhh.informatik.sml.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.CD;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 
 public class AusleiheMedienTableModelTest
 {

@@ -8,10 +8,10 @@ import javax.swing.JPanel;
 
 import de.hawhh.informatik.sml.fachwerte.Datum;
 import de.hawhh.informatik.sml.materialien.Kunde;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 import de.hawhh.informatik.sml.mediathek.ProtokollierException;
 import de.hawhh.informatik.sml.mediathek.ServiceObserver;
 import de.hawhh.informatik.sml.mediathek.VerleihService;
-import de.hawhh.informatik.sml.medien.Medium;
 import de.hawhh.informatik.sml.verwalter.KundenstammService;
 import de.hawhh.informatik.sml.verwalter.MedienbestandService;
 import de.hawhh.informatik.sml.werkzeug.SubWerkzeugObserver;

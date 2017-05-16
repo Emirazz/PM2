@@ -7,8 +7,8 @@ import java.util.Map.Entry;
 
 import de.hawhh.informatik.sml.materialien.Kunde;
 import de.hawhh.informatik.sml.materialien.Verleihkarte;
-import de.hawhh.informatik.sml.medien.MedienEinleser;
-import de.hawhh.informatik.sml.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.MedienEinleser;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 
 /**
  * Ein DatenEinleser kann verwendet werden um Kunden, Medien und Verleihkarten

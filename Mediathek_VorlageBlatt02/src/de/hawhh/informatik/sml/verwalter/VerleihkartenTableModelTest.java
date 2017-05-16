@@ -12,11 +12,11 @@ import de.hawhh.informatik.sml.fachwerte.Datum;
 import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.materialien.Kunde;
 import de.hawhh.informatik.sml.materialien.Verleihkarte;
+import de.hawhh.informatik.sml.materialien.medien.CD;
+import de.hawhh.informatik.sml.materialien.medien.DVD;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 import de.hawhh.informatik.sml.mediathek.VerleihService;
 import de.hawhh.informatik.sml.mediathek.VerleihServiceImpl;
-import de.hawhh.informatik.sml.medien.CD;
-import de.hawhh.informatik.sml.medien.DVD;
-import de.hawhh.informatik.sml.medien.Medium;
 
 public class VerleihkartenTableModelTest
 {

@@ -4,7 +4,7 @@ import java.util.List;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-import de.hawhh.informatik.sml.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 
 /**
  * Ein MedienDetailAnzeigerWerkzeug ist ein Werkzeug um die Details von Medien

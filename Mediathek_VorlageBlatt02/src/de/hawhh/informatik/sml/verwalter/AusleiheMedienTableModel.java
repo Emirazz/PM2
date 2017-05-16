@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.swing.table.AbstractTableModel;
 
-import de.hawhh.informatik.sml.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 
 /**
  * Ein AusleiheMedienTableModel hält Medien, und gibt für jede Spalte im

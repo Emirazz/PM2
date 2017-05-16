@@ -2,7 +2,7 @@ package de.hawhh.informatik.sml.verwalter;
 import java.io.Serializable;
 import java.util.Comparator;
 
-import de.hawhh.informatik.sml.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 
 /**
  * Comparator-Klasse um zwei MedienF zu vergleichen, damit sie an der UI

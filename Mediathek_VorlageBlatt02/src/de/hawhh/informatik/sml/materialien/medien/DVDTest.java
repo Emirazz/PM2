@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.medien;
+package de.hawhh.informatik.sml.materialien.medien;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;

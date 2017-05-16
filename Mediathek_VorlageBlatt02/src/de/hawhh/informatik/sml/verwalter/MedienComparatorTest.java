@@ -4,10 +4,10 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import de.hawhh.informatik.sml.medien.AbstractVideospiel;
-import de.hawhh.informatik.sml.medien.CD;
-import de.hawhh.informatik.sml.medien.DVD;
-import de.hawhh.informatik.sml.medien.KonsolenVideospiel;
+import de.hawhh.informatik.sml.materialien.medien.AbstractVideospiel;
+import de.hawhh.informatik.sml.materialien.medien.CD;
+import de.hawhh.informatik.sml.materialien.medien.DVD;
+import de.hawhh.informatik.sml.materialien.medien.KonsolenVideospiel;
 
 /**
  * Testklasse für den MedienComparator

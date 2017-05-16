@@ -2,8 +2,8 @@ package de.hawhh.informatik.sml.verwalter;
 import java.util.ArrayList;
 import java.util.List;
 
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 import de.hawhh.informatik.sml.mediathek.AbstractObservableService;
-import de.hawhh.informatik.sml.medien.Medium;
 
 /**
  * Ein Medienbestand enthält alle zur Verfügung stehenden Medien. Diese können

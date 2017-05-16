@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.medien;
+package de.hawhh.informatik.sml.materialien.medien;
 
 import de.hawhh.informatik.sml.fachwerte.Geldbetrag;
 

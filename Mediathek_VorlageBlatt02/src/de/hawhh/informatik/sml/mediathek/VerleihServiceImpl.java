@@ -7,7 +7,7 @@ import java.util.Map;
 import de.hawhh.informatik.sml.fachwerte.Datum;
 import de.hawhh.informatik.sml.materialien.Kunde;
 import de.hawhh.informatik.sml.materialien.Verleihkarte;
-import de.hawhh.informatik.sml.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 import de.hawhh.informatik.sml.verwalter.KundenstammService;
 import de.hawhh.informatik.sml.verwalter.MedienbestandService;
 

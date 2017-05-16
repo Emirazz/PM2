@@ -4,7 +4,7 @@ import java.util.List;
 import de.hawhh.informatik.sml.fachwerte.Datum;
 import de.hawhh.informatik.sml.materialien.Kunde;
 import de.hawhh.informatik.sml.materialien.Verleihkarte;
-import de.hawhh.informatik.sml.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 
 /**
  * Der VerleihService erlaubt es, Medien auszuleihen und zurückzugeben.

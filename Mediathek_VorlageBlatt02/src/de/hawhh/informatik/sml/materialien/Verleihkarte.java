@@ -2,7 +2,7 @@ package de.hawhh.informatik.sml.materialien;
 
 import de.hawhh.informatik.sml.fachwerte.Datum;
 import de.hawhh.informatik.sml.fachwerte.Geldbetrag;
-import de.hawhh.informatik.sml.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 
 /**
  * Mit Hilfe von Verleihkarten werden beim Verleih eines Mediums alle relevanten

@@ -12,10 +12,10 @@ import javax.swing.event.ListSelectionListener;
 
 import de.hawhh.informatik.sml.fachwerte.Datum;
 import de.hawhh.informatik.sml.materialien.Verleihkarte;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 import de.hawhh.informatik.sml.mediathek.ProtokollierException;
 import de.hawhh.informatik.sml.mediathek.ServiceObserver;
 import de.hawhh.informatik.sml.mediathek.VerleihService;
-import de.hawhh.informatik.sml.medien.Medium;
 
 /**
  * Ein RueckgabeWerkzeug stellt die Funktionalität der Rücknahme für die

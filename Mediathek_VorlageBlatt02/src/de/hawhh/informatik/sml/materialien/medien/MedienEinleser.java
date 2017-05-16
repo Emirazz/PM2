@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.medien;
+package de.hawhh.informatik.sml.materialien.medien;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;

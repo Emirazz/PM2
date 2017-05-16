@@ -6,9 +6,9 @@ import javax.swing.JPanel;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 import de.hawhh.informatik.sml.mediathek.ServiceObserver;
 import de.hawhh.informatik.sml.mediathek.VerleihService;
-import de.hawhh.informatik.sml.medien.Medium;
 import de.hawhh.informatik.sml.verwalter.AusleiheMedienFormatierer;
 import de.hawhh.informatik.sml.verwalter.AusleiheMedienTableModel;
 import de.hawhh.informatik.sml.verwalter.MedienbestandService;

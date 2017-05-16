@@ -1,6 +1,6 @@
 package de.hawhh.informatik.sml.verwalter;
 
-import de.hawhh.informatik.sml.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 
 /**
  * Der Formatierer für Medien in der Ausleiheansicht.

@@ -1,8 +1,8 @@
 package de.hawhh.informatik.sml.verwalter;
 import java.util.List;
 
+import de.hawhh.informatik.sml.materialien.medien.Medium;
 import de.hawhh.informatik.sml.mediathek.ObservableService;
-import de.hawhh.informatik.sml.medien.Medium;
 
 /**
  * Ein Medienbestand-Service ist ein Service, der alle zur Verfügung stehenden
