@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.verwalter;
+package de.hawhh.informatik.sml.startup;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.Map.Entry;
 
 import de.hawhh.informatik.sml.materialien.Kunde;
 import de.hawhh.informatik.sml.materialien.Verleihkarte;
-import de.hawhh.informatik.sml.materialien.medien.MedienEinleser;
 import de.hawhh.informatik.sml.materialien.medien.Medium;
+import de.hawhh.informatik.sml.verwalter.DateiLeseException;
 
 /**
  * Ein DatenEinleser kann verwendet werden um Kunden, Medien und Verleihkarten

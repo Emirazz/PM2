@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.verwalter;
+package de.hawhh.informatik.sml.werkzeug.Ausleih;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

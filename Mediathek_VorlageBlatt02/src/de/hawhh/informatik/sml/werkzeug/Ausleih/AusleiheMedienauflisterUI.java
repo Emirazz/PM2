@@ -11,7 +11,6 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.JTableHeader;
 import javax.swing.table.TableColumn;
 
-import de.hawhh.informatik.sml.verwalter.AusleiheMedienTableModel;
 import de.hawhh.informatik.sml.werkzeug.UIConstants;
 
 /**

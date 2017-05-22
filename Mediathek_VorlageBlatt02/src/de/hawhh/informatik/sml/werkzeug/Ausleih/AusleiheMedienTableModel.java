@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.verwalter;
+package de.hawhh.informatik.sml.werkzeug.Ausleih;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -15,7 +15,7 @@ import de.hawhh.informatik.sml.materialien.medien.Medium;
  * @author SE2-Team, PM2-Team
  * @version SoSe 2017
  */
-public class AusleiheMedienTableModel extends AbstractTableModel
+class AusleiheMedienTableModel extends AbstractTableModel
 {
     private static final long serialVersionUID = 1L;
 

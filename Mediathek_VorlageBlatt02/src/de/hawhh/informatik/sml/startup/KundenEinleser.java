@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.verwalter;
+package de.hawhh.informatik.sml.startup;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,6 +11,7 @@ import java.util.StringTokenizer;
 import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.fachwerte.PLZ;
 import de.hawhh.informatik.sml.materialien.Kunde;
+import de.hawhh.informatik.sml.verwalter.DateiLeseException;
 
 /**
  * Liest Kunden aus einer CVS-Textdatei ein. Die Kundeninformationen müssen mit

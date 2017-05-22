@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.verwalter;
+package de.hawhh.informatik.sml.werkzeug.Ausleih;
 
 import de.hawhh.informatik.sml.materialien.medien.Medium;
 
@@ -8,7 +8,7 @@ import de.hawhh.informatik.sml.materialien.medien.Medium;
  * @author SE2-Team, PM2-Team
  * @version SoSe 2017
  */
-public class AusleiheMedienFormatierer
+class AusleiheMedienFormatierer
 {
 
     private final Medium _medium;

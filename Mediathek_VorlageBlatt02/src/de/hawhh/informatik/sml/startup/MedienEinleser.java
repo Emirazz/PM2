@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.materialien.medien;
+package de.hawhh.informatik.sml.startup;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -15,6 +15,11 @@ import de.hawhh.informatik.sml.fachwerte.Datum;
 import de.hawhh.informatik.sml.fachwerte.Kundennummer;
 import de.hawhh.informatik.sml.materialien.Kunde;
 import de.hawhh.informatik.sml.materialien.Verleihkarte;
+import de.hawhh.informatik.sml.materialien.medien.CD;
+import de.hawhh.informatik.sml.materialien.medien.DVD;
+import de.hawhh.informatik.sml.materialien.medien.KonsolenVideospiel;
+import de.hawhh.informatik.sml.materialien.medien.Medium;
+import de.hawhh.informatik.sml.materialien.medien.PCVideospiel;
 import de.hawhh.informatik.sml.verwalter.DateiLeseException;
 
 /**
@@ -24,7 +29,7 @@ import de.hawhh.informatik.sml.verwalter.DateiLeseException;
  * @author SE2-Team, PM2-Team
  * @version SoSe 2017
  */
-public class MedienEinleser
+class MedienEinleser
 {
 
     // Dieses Pattern dient der Überprüfung eines Datums

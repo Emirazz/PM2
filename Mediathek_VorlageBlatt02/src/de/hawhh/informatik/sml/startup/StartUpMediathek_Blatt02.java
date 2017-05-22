@@ -9,7 +9,6 @@ import javax.swing.SwingUtilities;
 import de.hawhh.informatik.sml.mediathek.VerleihService;
 import de.hawhh.informatik.sml.mediathek.VerleihServiceImpl;
 import de.hawhh.informatik.sml.verwalter.DateiLeseException;
-import de.hawhh.informatik.sml.verwalter.DatenEinleser;
 import de.hawhh.informatik.sml.verwalter.KundenstammService;
 import de.hawhh.informatik.sml.verwalter.KundenstammServiceImpl;
 import de.hawhh.informatik.sml.verwalter.MedienbestandService;

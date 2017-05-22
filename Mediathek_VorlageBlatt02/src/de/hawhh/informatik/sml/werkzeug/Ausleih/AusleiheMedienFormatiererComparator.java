@@ -1,4 +1,4 @@
-package de.hawhh.informatik.sml.verwalter;
+package de.hawhh.informatik.sml.werkzeug.Ausleih;
 import java.io.Serializable;
 import java.util.Comparator;
 
